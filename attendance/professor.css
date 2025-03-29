@@ -1,0 +1,44 @@
+body {
+    font-family: 'Arial', sans-serif;
+}
+
+.navbar {
+    margin-bottom: 20px;
+}
+
+.sidebar {
+    height: 100vh;
+    position: fixed;
+}
+
+.main-content {
+    margin-left: 200px;
+    padding: 20px;
+}
+
+.card {
+    cursor: pointer;
+    transition: transform 0.2s;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+.card-title {
+    color: #007bff;
+}
+
+.card .btn-primary {
+    background-color: #007bff;
+    border-color: #007bff;
+}
+
+.card .btn-primary:hover {
+    background-color: #0056b3;
+    border-color: #0056b3;
+}
+
+.table-responsive {
+    margin-top: 20px;
+}

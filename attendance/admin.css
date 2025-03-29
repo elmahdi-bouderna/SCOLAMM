@@ -1,0 +1,26 @@
+body {
+    font-family: 'Arial', sans-serif;
+}
+
+.navbar {
+    margin-bottom: 20px;
+}
+
+.sidebar {
+    height: 100vh;
+    position: fixed;
+}
+
+.main-content {
+    margin-left: 200px;
+    padding: 20px;
+}
+
+.card {
+    cursor: pointer;
+    transition: transform 0.2s;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
